@@ -1,0 +1,90 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+#logo-container img {
+  width: 150px;
+  position:relative;
+}
+
+#logo-index img {
+  width: 450%;
+}
+
+
+#logfooter {
+  width: 15%;
+  
+  font-weight: 300;
+}
+
+.nav-wrapper {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+.globaldiv .imgdohome{
+  width: 70rem;
+  margin-left: 7rem;
+}
+.btn-large {
+  width: 100%;
+  margin-left: 30rem;
+  transition: filter transform .5s;
+}
+.btn-large:hover {
+  transform: translateY(-20px);
+  filter: brightness(1.2);
+}
+
+
+.page-footer .col {
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+nav ul a {
+  color: #999c9e;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #1F92E4;
+  font-size: 3.8rem;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #1F92E4;
+}
+
+.col img {
+  width: 80%;
+}
+.page-footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.azul-marinho {
+  
+  background-color:#1F92E4 !important;
+  
+}
+
